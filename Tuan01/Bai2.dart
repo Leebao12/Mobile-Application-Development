@@ -1,7 +1,6 @@
 import 'dart:io';
 
 void main() {
-  print("========== BÀI TẬP 2: XỬ LÝ SỐ NGUYÊN ==========");
 
   stdout.write("Nhập vào một số nguyên dương (>10): ");
   int n = int.tryParse(stdin.readLineSync() ?? "0") ?? 0;

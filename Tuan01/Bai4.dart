@@ -2,7 +2,6 @@ import 'dart:io';
 import 'dart:math';
 
 void main() {
-  print("========== BTVN 1: LIST NGẪU NHIÊN ==========");
 
   Random rand = Random();
   List<int> ds = List.generate(10, (_) => rand.nextInt(96) + 5);

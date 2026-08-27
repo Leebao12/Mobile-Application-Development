@@ -2,7 +2,6 @@ import 'dart:io';
 import 'dart:convert';
 
 void main() {
-  print("========== BTVN 2: XỬ LÝ CHUỖI ==========");
 
   stdout.write("Nhập vào một chuỗi: ");
   String s = stdin.readLineSync(encoding: utf8)?.trim() ?? "";

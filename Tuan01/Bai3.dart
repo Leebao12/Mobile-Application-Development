@@ -9,7 +9,6 @@ bool isPrime(int n) {
 }
 
 void main() {
-  print("========== BÀI TẬP 3: XỬ LÝ LIST SỐ NGUYÊN ==========");
   List<int> ds = [];
 
   stdout.write("Bạn muốn nhập bao nhiêu phần tử? ");

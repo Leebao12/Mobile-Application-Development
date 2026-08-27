@@ -1,7 +1,6 @@
 import 'dart:io';
 
 void main() {
-  print("========== BÀI TẬP 1: TÍNH TIỀN KEM ==========");
   
   stdout.write("Nhập số lượng que kem cần mua (>0): ");
   int soLuong = int.tryParse(stdin.readLineSync() ?? "0") ?? 0;
